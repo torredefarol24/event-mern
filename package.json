@@ -1,12 +1,20 @@
 {
-  "name": "mern_eventcal",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Toufiq (https://twitter.com/burningraven06)",
-  "license": "MIT",
-  "dependencies": {
-    "@types/express": "^4.17.3",
-    "@types/node": "^13.9.1",
-    "express": "^4.17.1"
-  }
+	"name": "mern_eventcal",
+	"version": "1.0.0",
+	"main": "build/server.js",
+	"author": "Toufiq (https://twitter.com/burningraven06)",
+	"license": "MIT",
+	"scripts": {
+		"watch-ts": "tsc -w",
+		"watch-js": "nodemon build/server.js"
+	},
+	"dependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/express": "^4.17.3",
+		"@types/mongoose": "^5.7.6",
+		"@types/node": "^13.9.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.4"
+	}
 }
